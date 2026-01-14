@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraising Campaign</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="bg-rose-500 text-white font-bold p-1 rounded">♥</div>
+                <span class="text-xl font-bold text-gray-800 tracking-tight">CareFund</span>
+            </div>
+            <div class="hidden md:flex items-center gap-4">
+                <button class="bg-rose-500 hover:bg-rose-600 text-white px-5 py-2 rounded-full font-bold text-sm transition">Start a Fundraiser</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="md:col-span-2">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">Help Us Cover Emergency Surgery Costs for Max</h1>
+            <div class="w-full h-96 bg-gray-200 rounded-xl overflow-hidden mb-6 relative">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=2874&auto=format&fit=crop" class="w-full h-full object-cover">
+            </div>
+            <div class="prose max-w-none text-gray-700 leading-relaxed">
+                <p class="mb-4">Hi everyone, I am writing to you today to ask for help for our beloved dog, Max.</p>
+                <p class="mb-4 font-semibold">We are trying to raise $5,000 to cover the surgery.</p>
+            </div>
+        </div>
+
+        <div class="md:col-span-1">
+            <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 sticky top-24">
+                <div class="mb-2">
+                    <span class="text-3xl font-extrabold text-gray-900">$3,450</span>
+                    <span class="text-gray-500 text-sm"> raised of $5,000 goal</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2.5 mb-6">
+                    <div class="bg-rose-500 h-2.5 rounded-full" style="width: 70%"></div>
+                </div>
+                <a href="#" class="block w-full bg-rose-500 hover:bg-rose-600 text-white text-center font-bold text-lg py-4 rounded-xl shadow-md mb-3 transition">Donate Now</a>
+                <div class="mt-8">
+                    <h4 class="font-bold text-gray-900 mb-4">Recent Donations</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center text-green-700 text-xs font-bold">JM</div>
+                            <div><p class="font-bold text-sm">Jane Miller</p><p class="text-gray-500 text-xs">$50</p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
